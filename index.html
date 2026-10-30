@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Residencial Maldivas | ITBI e Registro Grátis - Simulação Caixa</title>
+    <!-- Google Fonts: Montserrat e Inter (Altíssima Legibilidade) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        caixaBlue: '#004B87',
+                        caixaLightBlue: '#0066B3',
+                        mcmvOrange: '#FF6B00',
+                        lightbg: '#F8FAFC',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-lightbg text-slate-800 font-sans antialiased selection:bg-mcmvOrange selection:text-white">
+
+    <!-- BARRA DE TOPO / GOVERNO & CAIXA -->
+    <header class="bg-caixaBlue text-white py-3 px-4 shadow-md sticky top-0 z-50 border-b-4 border-mcmvOrange">
+        <div class="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center text-center sm:text-left gap-2">
+            <div class="flex items-center gap-3">
+                <span class="bg-mcmvOrange text-white text-xs font-heading font-black px-3 py-1 rounded uppercase tracking-wider shadow">MINHA CASA MINHA VIDA</span>
+                <span class="text-xs sm:text-sm font-semibold text-slate-100">Financiamento Habitacional Caixa</span>
+            </div>
+            <div class="text-xs sm:text-sm font-medium text-slate-200">
+                Consultor Autorizado: <strong class="text-white">Ícaro Lopes · CRECI 35458</strong>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION (DESTAQUE ABSOLUTO DE ITBI, REGISTRO E SUBSÍDIO) -->
+    <section class="py-12 md:py-16 px-4 bg-gradient-to-b from-blue-50 to-lightbg">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+            
+            <!-- TEXTOS E DESTAQUES COMERCIAIS -->
+            <div class="lg:col-span-6 space-y-6">
+                <div class="inline-flex items-center gap-2 bg-emerald-100 text-emerald-800 px-3.5 py-1.5 rounded-lg text-xs font-bold uppercase tracking-wider border border-emerald-200">
+                    <span>🎉 ITBI e Registro GRÁTIS para Você Economizar Milhares</span>
+                </div>
+                
+                <h1 class="text-4xl sm:text-5xl font-heading font-black text-caixaBlue leading-tight">
+                    Residencial Maldivas
+                </h1>
+                
+                <p class="text-lg text-slate-600 font-medium leading-relaxed">
+                    Seu apê de 1* e 2 quartos com lazer completo na <strong class="text-slate-800">Vila Atlântida</strong> em Montes Claros. Aprovação facilitada pela <strong class="text-caixaBlue">Caixa</strong> com benefícios exclusivos de lançamento!
+                </p>
+
+                <!-- GRID DE BENEFÍCIOS (ITBI, REGISTRO, SUBSÍDIO E SINAL) -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+                    
+                    <!-- BENEFÍCIO 1: ITBI E REGISTRO GRÁTIS -->
+                    <div class="bg-white border-2 border-emerald-500/40 p-4 rounded-xl shadow-sm flex items-center gap-4">
+                        <div class="bg-emerald-100 p-3 rounded-lg text-emerald-700 font-heading font-black text-xl">
+                            🎁
+                        </div>
+                        <div>
+                            <span class="block text-xs font-bold text-emerald-700 uppercase tracking-wider">Documentação</span>
+                            <span class="text-lg font-heading font-extrabold text-slate-900">ITBI & Registro GRÁTIS</span>
+                        </div>
+                    </div>
+
+                    <!-- BENEFÍCIO 2: SUBSÍDIO -->
+                    <div class="bg-white border-2 border-mcmvOrange/40 p-4 rounded-xl shadow-sm flex items-center gap-4">
+                        <div class="bg-mcmvOrange/10 p-3 rounded-lg text-mcmvOrange font-heading font-black text-xl">
+                            💰
+                        </div>
+                        <div>
+                            <span class="block text-xs font-bold text-slate-400 uppercase tracking-wider">Subsídio Governo</span>
+                            <span class="text-lg font-heading font-extrabold text-caixaBlue">Até R$ 55.000</span>
+                        </div>
+                    </div>
+
+                    <!-- BENEFÍCIO 3: SINAL DE ENTRADA -->
+                    <div class="bg-white border-2 border-caixaBlue/20 p-4 rounded-xl shadow-sm flex items-center gap-4 sm:col-span-2">
+                        <div class="bg-caixaBlue/10 p-3 rounded-lg text-caixaBlue font-heading font-black text-xl">
+                            🔑
+                        </div>
+                        <div>
+                            <span class="block text-xs font-bold text-slate-400 uppercase tracking-wider">Facilidade de Entrada</span>
+                            <span class="text-xl font-heading font-extrabold text-mcmvOrange">Sinal a partir de R$ 700,00</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="pt-2 text-xs text-slate-500">
+                    <em>*Opções de 01 quarto (adaptáveis para PCD). Condições imperdíveis por tempo limitado.</em>
+                </div>
+            </div>
+
+            <!-- FOTO PRINCIPAL DE ALTO DESEJO (PISCINA) -->
+            <div class="lg:col-span-6">
+                <div class="bg-white p-3 rounded-2xl shadow-xl border border-slate-200 relative">
+                    <div class="absolute -top-3 -right-3 bg-emerald-600 text-white font-heading font-bold text-xs px-3 py-1.5 rounded-lg shadow-md uppercase tracking-wider">
+                        Economia de Documentação Inclusa
+                    </div>
+                    <img src="https://www.construtoravoce.com.br/wp-content/uploads/2026/10/1-1080x635.jpg" alt="Piscina Residencial Maldivas" class="w-full h-auto rounded-xl object-cover shadow-md">
+                    <div class="mt-3 p-3 bg-slate-50 rounded-lg text-center flex items-center justify-center gap-2">
+                        <span class="text-sm font-heading font-bold text-slate-700">🏊‍♂️ Condomínio Fechado com Lazer Completo</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- GALERIA VISUAL DO EMPREENDIMENTO -->
+    <section class="py-12 px-4 max-w-6xl mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-10 space-y-2">
+            <span class="text-xs font-heading font-bold text-mcmvOrange uppercase tracking-wider">Estrutura e Planta</span>
+            <h2 class="text-3xl font-heading font-black text-caixaBlue">O Padrão que Você e sua Família Merecem</h2>
+            <p class="text-slate-600 font-medium">Localizado na Rua Vicente Braga, Vila Atlântida — segurança, lazer e conforto.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white p-3 rounded-2xl shadow-md border border-slate-200 group overflow-hidden">
+                <div class="overflow-hidden rounded-xl">
+                    <img src="https://www.construtoravoce.com.br/wp-content/uploads/2026/10/maldivas.png" alt="Fachada Residencial Maldivas" class="w-full h-52 object-cover group-hover:scale-105 transition duration-300">
+                </div>
+                <div class="p-3 text-center">
+                    <h3 class="font-heading font-bold text-slate-800">Portaria e Fachada Moderna</h3>
+                </div>
+            </div>
+
+            <div class="bg-white p-3 rounded-2xl shadow-md border border-slate-200 group overflow-hidden">
+                <div class="overflow-hidden rounded-xl">
+                    <img src="https://www.construtoravoce.com.br/wp-content/uploads/2026/10/planta_3d_sem_fundo_1280.webp" alt="Planta 3D Residencial Maldivas" class="w-full h-52 object-contain bg-slate-50 group-hover:scale-105 transition duration-300">
+                </div>
+                <div class="p-3 text-center">
+                    <h3 class="font-heading font-bold text-slate-800">Planta 3D Inteligente</h3>
+                </div>
+            </div>
+
+            <div class="bg-white p-3 rounded-2xl shadow-md border border-slate-200 group overflow-hidden">
+                <div class="overflow-hidden rounded-xl">
+                    <img src="https://www.construtoravoce.com.br/wp-content/uploads/2026/10/maldivas-mapa.webp" alt="Localização Vila Atlântida" class="w-full h-52 object-cover group-hover:scale-105 transition duration-300">
+                </div>
+                <div class="p-3 text-center">
+                    <h3 class="font-heading font-bold text-slate-800">Localização Privilegiada</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO PRINCIPAL: FORMULÁRIO DE SIMULAÇÃO OFICIAL -->
+    <main class="py-12 px-4 max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+            
+            <!-- COLUNA ESQUERDA: EXPLICAÇÃO DO PRÉ-ATENDIMENTO CAIXA -->
+            <div class="lg:col-span-5 space-y-6">
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 space-y-6">
+                    <div class="flex items-center gap-3 pb-4 border-b border-slate-100">
+                        <div class="bg-caixaBlue text-white p-2.5 rounded-xl font-bold text-lg">🏦</div>
+                        <div>
+                            <h3 class="font-heading font-bold text-caixaBlue text-lg">Simulação Oficial Caixa</h3>
+                            <p class="text-xs text-slate-500">Pré-análise rápida e sem compromisso</p>
+                        </div>
+                    </div>
+                    
+                    <p class="text-slate-600 leading-relaxed font-medium">
+                        Preencha o formulário com suas informações financeiras. Como especialista credenciado, vou simular considerando o <strong class="text-emerald-700">ITBI e Registro Grátis</strong> para você!
+                    </p>
+
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-3">
+                            <div class="bg-caixaBlue text-white w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">1</div>
+                            <p class="text-sm text-slate-600 font-medium">Preencha seus dados de renda e nascimento ao lado.</p>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="bg-caixaBlue text-white w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">2</div>
+                            <p class="text-sm text-slate-600 font-medium">A ficha chega organizada e segura no meu WhatsApp.</p>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="bg-mcmvOrange text-white w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">3</div>
+                            <p class="text-sm text-slate-600 font-medium">Retorno com o valor exato do subsídio e da sua prestação.</p>
+                        </div>
+                    </div>
+
+                    <div class="p-4 bg-blue-50 rounded-xl border border-blue-200">
+                        <p class="text-xs text-caixaBlue font-bold uppercase tracking-wide">💡 Atenção Autônomos:</p>
+                        <p class="text-sm text-slate-700 mt-1 font-medium">
+                            Quem tem renda informal também consegue aprovar financiamento habitacional. Preencha com sua renda estimada!
+                        </p>
+                    </div>
+                </div>
+
+                <!-- SELOS DE GARANTIA -->
+                <div class="bg-caixaBlue text-white p-6 rounded-2xl shadow-sm text-center space-y-2">
+                    <h4 class="font-heading font-bold text-base">Financiamento Habitacional Seguro</h4>
+                    <p class="text-xs text-slate-200 leading-relaxed">
+                        Use seu FGTS para abater na entrada, aproveite o ITBI e Registro grátis e parcele o sinal.
+                    </p>
+                </div>
+            </div>
+
+            <!-- COLUNA DIREITA: FORMULÁRIO INTELIGENTE -->
+            <div class="lg:col-span-7">
+                <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl border-t-4 border-caixaBlue">
+                    <div class="mb-6 pb-4 border-b border-slate-100 flex justify-between items-center">
+                        <div>
+                            <span class="text-xs font-heading font-bold text-mcmvOrange uppercase tracking-wider">Canal de Atendimento Oficial</span>
+                            <h2 class="text-2xl font-heading font-black text-caixaBlue mt-1">
+                                Dados para Simulação Caixa
+                            </h2>
+                        </div>
+                        <span class="hidden sm:inline-block bg-emerald-100 text-emerald-800 text-xs font-bold px-3 py-1 rounded-full">ITBI & Registro Grátis</span>
+                    </div>
+
+                    <form id="simulationForm" class="space-y-5">
+                        
+                        <!-- NOME -->
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-1.5">Seu Nome Completo *</label>
+                            <input type="text" id="nome" required placeholder="Ex: João da Silva" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-caixaBlue focus:border-caixaBlue outline-none text-slate-800 font-medium">
+                        </div>
+
+                        <!-- WHATSAPP -->
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-1.5">Seu WhatsApp com DDD *</label>
+                            <input type="tel" id="whatsapp" required placeholder="Ex: (38) 99106-4740" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-caixaBlue focus:border-caixaBlue outline-none text-slate-800 font-medium">
+                        </div>
+
+                        <!-- DATA DE NASCIMENTO -->
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-1.5">Qual sua data de nascimento? *</label>
+                            <input type="date" id="nascimento" required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-caixaBlue focus:border-caixaBlue outline-none text-slate-800 font-medium bg-white">
+                        </div>
+
+                        <!-- ESTADO CIVIL -->
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-1.5">Qual seu Estado Civil? *</label>
+                            <select id="estadoCivil" required onchange="toggleConjuge()" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-caixaBlue focus:border-caixaBlue outline-none text-slate-800 font-medium bg-white">
+                                <option value="">Selecione...</option>
+                                <option value="Solteiro(a)">Solteiro(a)</option>
+                                <option value="Casado(a)">Casado(a)</option>
+                                <option value="União Estável">União Estável</option>
+                                <option value="Divorciado(a)">Divorciado(a)</option>
+                                <option value="Viúvo(a)">Viúvo(a)</option>
+                            </select>
+                        </div>
+
+                        <!-- BLOCO CONDICIONAL DO CÔNJUGE (APARECE SÓ SE CASADO/UNIÃO ESTÁVEL) -->
+                        <div id="blocoConjuge" class="hidden p-4 bg-amber-50 rounded-xl border border-amber-200 space-y-4">
+                            <div class="flex items-center gap-2 text-amber-800 font-bold text-sm">
+                                <span>💍 Dados do Cônjuge (Obrigatório para compor renda)</span>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-bold text-slate-700 mb-1.5">Data de Nascimento do Cônjuge</label>
+                                <input type="date" id="nascimentoConjuge" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-caixaBlue focus:border-caixaBlue outline-none text-slate-800 font-medium bg-white">
+                            </div>
+
+                            <div>
+                                <label class="block text-sm font-bold text-slate-700 mb-1.5">Renda Bruta do Cônjuge (R$)</label>
+                                <input type="text" id="rendaConjuge" placeholder="Ex: 2.000,00" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-caixaBlue focus:border-caixaBlue outline-none text-slate-800 font-medium bg-white">
+                            </div>
+                        </div>
+
+                        <!-- POSSUI FILHOS -->
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-1.5">Possui filhos ou dependentes? *</label>
+                            <p class="text-xs text-slate-500 mb-2">(Alguém que more junto e não tenha renda própria)</p>
+                            <select id="dependentes" required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-caixaBlue focus:border-caixaBlue outline-none text-slate-800 font-medium bg-white">
+                                <option value="">Selecione...</option>
+                                <option value="Não">Não</option>
+                                <option value="Sim, 1 dependente">Sim, 1 dependente</option>
+                                <option value="Sim, 2 ou mais dependentes">Sim, 2 ou mais dependentes</option>
+                            </select>
+                        </div>
+
+                        <!-- RENDA BRUTA TOTAL -->
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-1.5">Qual sua renda bruta total? *</label>
+                            <p class="text-xs text-slate-500 mb-2">(Caso tenha renda informal ou extra, conte com ela também)</p>
+                            <input type="text" id="renda" required placeholder="Ex: 3.500,00" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-caixaBlue focus:border-caixaBlue outline-none text-slate-800 font-medium">
+                        </div>
+
+                        <!-- FGTS / 3 ANOS DE CARTEIRA -->
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-1.5">Somando todos os empregos, você já trabalhou +3 anos de carteira assinada (FGTS)? *</label>
+                            <select id="fgts" required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-caixaBlue focus:border-caixaBlue outline-none text-slate-800 font-medium bg-white">
+                                <option value="">Selecione...</option>
+                                <option value="Sim (+3 anos acumulados)">Sim (+3 anos acumulados)</option>
+                                <option value="Não (Menos de 3 anos)">Não (Menos de 3 anos)</option>
+                            </select>
+                        </div>
+
+                        <!-- RESERVA PARA INVESTIMENTO -->
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-1.5">Possui alguma reserva que estava separando para o investimento? *</label>
+                            <select id="reserva" required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-caixaBlue focus:border-caixaBlue outline-none text-slate-800 font-medium bg-white">
+                                <option value="">Selecione...</option>
+                                <option value="Sim, tenho reserva (ex: FGTS ou Dinheiro guardado)">Sim, tenho reserva</option>
+                                <option value="Não possuo reserva no momento">Não possuo reserva no momento</option>
+                            </select>
+                        </div>
+
+                        <!-- BOTÃO DE ENVIO PARA WHATSAPP -->
+                        <div class="pt-4">
+                            <button type="button" onclick="enviarParaWhatsApp()" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-heading font-bold py-4 px-6 rounded-xl shadow-lg transition duration-200 flex items-center justify-center gap-3 text-base">
+                                <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                                Receber Simulação Oficial no WhatsApp
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- RODAPÉ PROFISSIONAL -->
+    <footer class="bg-caixaBlue text-slate-300 py-8 px-4 mt-16 border-t-4 border-mcmvOrange">
+        <div class="max-w-6xl mx-auto text-center space-y-3">
+            <p class="text-sm font-medium text-white">
+                Consultoria Especializada em Financiamento Habitacional · Minha Casa Minha Vida
+            </p>
+            <p class="text-xs text-slate-300">
+                Ícaro Lopes · CRECI 35458 · Montes Claros - MG
+            </p>
+            <p class="text-xs text-slate-400 pt-2">
+                As simulações apresentadas são estimativas preliminares baseadas nas diretrizes do FGTS e sujeitas à análise e aprovação final de crédito pela Caixa Econômica Federal.
+            </p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT DE INTERATIVIDADE -->
+    <script>
+        function toggleConjuge() {
+            const estadoCivil = document.getElementById('estadoCivil').value;
+            const blocoConjuge = document.getElementById('blocoConjuge');
+            const nascConjuge = document.getElementById('nascimentoConjuge');
+            const rendaConjuge = document.getElementById('rendaConjuge');
+
+            if (estadoCivil === 'Casado(a)' || estadoCivil === 'União Estável') {
+                blocoConjuge.classList.remove('hidden');
+                nascConjuge.required = true;
+                rendaConjuge.required = true;
+            } else {
+                blocoConjuge.classList.add('hidden');
+                nascConjuge.required = false;
+                rendaConjuge.required = false;
+                nascConjuge.value = '';
+                rendaConjuge.value = '';
+            }
+        }
+
+        function enviarParaWhatsApp() {
+            const nome = document.getElementById('nome').value.trim();
+            const whatsapp = document.getElementById('whatsapp').value.trim();
+            const nascimento = document.getElementById('nascimento').value.trim();
+            const estadoCivil = document.getElementById('estadoCivil').value;
+            const dependentes = document.getElementById('dependentes').value;
+            const renda = document.getElementById('renda').value.trim();
+            const fgts = document.getElementById('fgts').value;
+            const reserva = document.getElementById('reserva').value;
+
+            if (!nome || !whatsapp || !nascimento || !estadoCivil || !dependentes || !renda || !fgts || !reserva) {
+                alert('Por favor, preencha todos os campos obrigatórios antes de enviar.');
+                return;
+            }
+
+            let mensagem = `*📋 SIMULAÇÃO CAIXA - RESIDENCIAL MALDIVAS*\n\n`;
+            mensagem += `*👤 Nome:* ${nome}\n`;
+            mensagem += `*📱 WhatsApp:* ${whatsapp}\n`;
+            mensagem += `*📅 Data de Nasc.:* ${nascimento}\n`;
+            mensagem += `*💍 Estado Civil:* ${estadoCivil}\n`;
+
+            if (estadoCivil === 'Casado(a)' || estadoCivil === 'União Estável') {
+                const nascConjuge = document.getElementById('nascimentoConjuge').value.trim();
+                const rendaConjuge = document.getElementById('rendaConjuge').value.trim();
+                mensagem += `*📅 Nasc. Cônjuge:* ${nascConjuge || 'Não informado'}\n`;
+                mensagem += `*💵 Renda Cônjuge:* R$ ${rendaConjuge || '0,00'}\n`;
+            }
+
+            mensagem += `*👶 Filhos/Dependentes:* ${dependentes}\n`;
+            mensagem += `*💰 Renda Bruta Total:* R$ ${renda}\n`;
+            mensagem += `*⏱️ FGTS (+3 anos):* ${fgts}\n`;
+            mensagem += `*💼 Reserva p/ Investimento:* ${reserva}\n\n`;
+            mensagem += `_Enviado através da Landing Page (ITBI e Registro Grátis)._`;
+
+            // SEU NÚMERO DE WHATSAPP
+            const seuNumero = '5538991064740';
+            const url = `https://api.whatsapp.com/send?phone=${seuNumero}&text=${encodeURIComponent(mensagem)}`;
+            
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>
